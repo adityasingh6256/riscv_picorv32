@@ -5,8 +5,8 @@ This the cross-compiler that is needed to compile your c codes and turn them int
 
 1. The following prerequisites need to be installed before installing the toolchain
 ```    
-sudo apt-get install autoconf automake autotools-dev curl python3 libmpc-dev libmpfr-dev libgmp-dev gawk
-build-essential bison flex texinfo gperf libtool patchutils bc zlib1g-dev libexpat-dev
+sudo apt-get install autoconf automake autotools-dev curl python3 libmpc-dev libmpfr-dev libgmp-dev gawk build-essential bison flex texinfo gperf libtool patchutils bc zlib1g-dev libexpat-dev      
+sudo apt-get install autoconf automake autotools-dev curl python3 python3-pip libmpc-dev libmpfr-dev libgmp-dev gawk build-essential bison flex texinfo gperf libtool patchutils bc zlib1g-dev libexpat-dev ninja-build git cmake libglib2.0-dev        
 ```     
 2. Select folder to download tools and other components, and clone git repository. This will create a
 folder named “riscv-gnu-toolchain” in the selected path and download all files there.
