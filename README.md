@@ -83,13 +83,12 @@ sudo make linux
 
 #### Installation (Newlib/Linux multilib)
 To build either cross-compiler with support for both 32-bit and 64-bit, run the following command:
-````   
+```     
 ./configure --prefix=/opt/riscv --enable-multilib
-```    
+```       
 And then either make, make linux or make musl for the Newlib, Linux glibc-based or Linux musl libc-based cross-compiler, respectively.
 
-
-To compile a program, run the following command:
-> riscv_compiler_to_use -o out_put_file_name c_file_to_compile
-> Example : riscv32-unknown-elf-gcc -o hello hello.c
-it will create a hello.out file as executable binary file so we can run this on simulators (like spike).
+To compile a program, run the following command:    
+riscv_compiler_to_use -o out_put_file_name c_file_to_compile    
+Example : riscv32-unknown-elf-gcc -o hello hello.c    
+it will create a hello.out file as executable binary file so we can run this on simulators (like spike).    
