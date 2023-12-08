@@ -116,6 +116,22 @@ you can check the files -----
 ![Screenshot from 2023-11-03 19-01-14](https://github.com/adityasingh6256/riscv_picorv32/assets/110079790/0dceafea-1074-41d9-99db-ef3eef28836a)
 
 
+![Screenshot from 2023-12-08 14-54-26](https://github.com/adityasingh6256/riscv_picorv32/assets/110079790/30791248-5ac0-481a-9594-823231ac41a0)
+
+
+Use the linker script firmware/riscv.ld for linking binaries against the newlib library. Using this linker script will create a binary that has its entry point at 0x10000. (The default linker script does not have a static entry point, thus a proper ELF loader would be needed that can determine the entry point at runtime while loading the program.)
+
+
+```
+riscv32-unknown-elf-gcc -nostartfiles -o linked_hello hello.o -lm -T riscv.ld
+```
+
+use this above command for linking your design to start entry point at 0x10000.
+this will produce ----
+![Screenshot from 2023-12-08 14-54-11](https://github.com/adityasingh6256/riscv_picorv32/assets/110079790/1f745786-a337-4117-88c4-8ef18b0ac246)
+
+
+
 
 
 
