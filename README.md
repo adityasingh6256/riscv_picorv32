@@ -131,6 +131,15 @@ this will produce ----
 ![Screenshot from 2023-12-08 14-54-11](https://github.com/adityasingh6256/riscv_picorv32/assets/110079790/1f745786-a337-4117-88c4-8ef18b0ac246)
 
 
+another example of Multiplication in c compile to assembly and then binary--
+
+![Screenshot from 2023-12-08 15-07-21](https://github.com/adityasingh6256/riscv_picorv32/assets/110079790/a5211b27-fbc6-4db8-b5b0-4b2e9205a600)
+
+
+![Screenshot from 2023-12-08 15-10-00](https://github.com/adityasingh6256/riscv_picorv32/assets/110079790/ff25ba14-d026-4df9-8c50-d73097bfc174)
+
+
+
 
 
 
