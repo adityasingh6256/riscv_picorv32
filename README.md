@@ -92,3 +92,30 @@ To compile a program, run the following command:
 riscv_compiler_to_use -o out_put_file_name c_file_to_compile    
 Example : riscv32-unknown-elf-gcc -o hello hello.c    
 it will create a hello.out file as executable binary file so we can run this on simulators (like spike).    
+
+
+### Testing_Toolchain
+
+
+Run a hello command and test it on spike for printing it.
+
+
+
+![Screenshot from 2023-11-03 18-17-41](https://github.com/adityasingh6256/riscv_picorv32/assets/110079790/989159a7-5d1c-46a7-91d3-6de7d26b17fd)
+
+
+
+Produce ELF 32 Bit LSB executable ,named as 'hello' . and produce hello.asm assembly file ,hello.txt.
+
+
+![Screenshot from 2023-11-03 22-48-34](https://github.com/adityasingh6256/riscv_picorv32/assets/110079790/0b1431ab-9f1f-4481-9a5b-fb11085847d6)
+
+you can check the files -----
+
+
+![Screenshot from 2023-11-03 19-01-14](https://github.com/adityasingh6256/riscv_picorv32/assets/110079790/0dceafea-1074-41d9-99db-ef3eef28836a)
+
+
+
+
+
