@@ -140,6 +140,28 @@ other then executable file like hello we can generate files of different format 
 ![Screenshot from 2023-12-08 15-10-00](https://github.com/adityasingh6256/riscv_picorv32/assets/110079790/ff25ba14-d026-4df9-8c50-d73097bfc174)
 
 
+## Picorv32_core Simulation 
+
+Simulating picorv32 core for counter---
+
+
+Converted the the counter code in c to assembly and then machine code of instructions in 32 bits instructions.saving the istructions on addresses of 32'h00000000,32'h00000004,32'h00000008...like that and saving counter value at address 1020 (32'h000003fc).so counter value will be shown on mem_wdata ,and values will be 0,1,2,3,4...like that,mem_rdata will show counter values and also instruction data.
+
+![Screenshot from 2023-12-09 22-23-52](https://github.com/adityasingh6256/riscv_picorv32/assets/110079790/ea2202b7-81db-4dae-9c9d-f1754b1c7c23)
+
+waveform----
+
+![Screenshot from 2023-12-09 22-08-19](https://github.com/adityasingh6256/riscv_picorv32/assets/110079790/4a905905-99ae-46cd-b08b-8078d270d746)
+
+
+
+
+
+
+
+
+
+
 
 
 
