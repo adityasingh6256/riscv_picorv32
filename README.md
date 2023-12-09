@@ -153,6 +153,17 @@ waveform----
 
 ![Screenshot from 2023-12-09 22-08-19](https://github.com/adityasingh6256/riscv_picorv32/assets/110079790/4a905905-99ae-46cd-b08b-8078d270d746)
 
+## Testing PCPI interface for given multiplication module
+
+		dut.cpuregs.rdata1 <= 32'h00000055;	//85
+		dut.cpuregs.rdata2 <= 32'h00000006;	//6
+      // output = (85*6=510)  = 36'h000001FE;
+		#1000;
+		dut.cpuregs.rdata1 <= 32'h0000000C;	//12
+		dut.cpuregs.rdata2 <= 32'h00000010;	//16
+      // output = (12*16=192) = 36'h000000C0;
+      
+![Screenshot from 2023-12-09 23-48-26](https://github.com/adityasingh6256/riscv_picorv32/assets/110079790/8f7c908e-edd5-4917-a538-849379c20fcd)
 
 
 
