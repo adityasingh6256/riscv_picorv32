@@ -22,7 +22,7 @@ riscv_ISA_toolchain_picorv32
 18. [References](#19-references)
 
 
-## RISCV ISA base Module with MAFDQC standard extensions 
+## RISCV ISA Base Module with MAFDQC Standard Extensions 
 
 | Module/Extension      | Description                                           |
 |-----------------------|-------------------------------------------------------|
