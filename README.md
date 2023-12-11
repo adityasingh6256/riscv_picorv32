@@ -7,7 +7,7 @@ riscv_ISA_toolchain_picorv32
 3. [RV32 ISA 32 Registers](#rv32-isa-32-registers)
 4. [Basic Core of RISCV](#basic-core-of-riscv)
 5. [Core with Other Blocks](#core-with-other-blocks)
-6. [Installing RISC-V Toolchain for Linux](#installing-risc-v-toolchain-for-linux)
+6. [Installing RISC_V Toolchain for Linux](#installing-risc_v-toolchain-for-linux)
 7. [Installation (Newlib/Linux Multilib)](#installation-newlib-linux-multilib)
 8. [Testing Toolchain](#testing-toolchain)
 9. [Picorv32_core Simulation](#picorv32-core-simulation)
