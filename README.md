@@ -219,6 +219,7 @@ we are doing here a^2 + b^2
 ![Screenshot from 2023-12-11 07-51-15](https://github.com/adityasingh6256/riscv_picorv32/assets/110079790/da6265df-bf95-4423-a62f-a476bb9aeeb4)   
 
 
+![Screenshot from 2023-12-11 08-05-05](https://github.com/adityasingh6256/riscv_picorv32/assets/110079790/471108f5-5426-4582-84cd-53ea9a0276b3)
 
 
 
