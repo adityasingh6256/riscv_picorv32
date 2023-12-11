@@ -2,10 +2,10 @@
 riscv_ISA_toolchain_picorv32
 ## Table of Contents
 
-1. [RISC-V ISA Base Module with MAFDQC Standard Extensions](#riscv_isa-base-module-with-mafqc-standard-extensions)
+1. [RISCV ISA Base Module with MAFDQC Standard Extensions](#riscv-isa-base-module-with-mafqc-standard-extensions)
 2. [RV32I ISA Encoding](#rv32i-isa-encoding)
 3. [RV32 ISA 32 Registers](#rv32-isa-32-registers)
-4. [Basic Core of RISC-V](#basic-core-of-riscv)
+4. [Basic Core of RISC_V](#basic-core-of-risc_v)
 5. [Core with Other Blocks](#core-with-other-blocks)
 6. [Installing RISC-V Toolchain for Linux](#installing-risc-v-toolchain-for-linux)
 7. [Installation (Newlib/Linux Multilib)](#installation-newlib-linux-multilib)
