@@ -14,12 +14,12 @@ riscv_ISA_toolchain_picorv32
 10. [Testing PCPI Interface for Given Multiplication Module](#testing-pcpi-interface-for-given-multiplication-module)
 11. [Adding a Module in PICORV32 and Interface It with PCPI](#adding-a-module-in-picorv32-and-interface-it-with-pcpi)
 12. [Testing of DOT Product of Floating Point Numbers](#testing-of-dot-product-of-floating-point-numbers)
-13. [Future Work](#14-future-work)
-14. [Author](#15-author)
-15. [Contributors](#16-contributors)
-16. [Acknowledgement](#17-acknowledgement)
-17. [Contact Information](#18-contact-information)
-18. [References](#19-references)
+13. [Future Work](#future-work)
+14. [Author](#author)
+15. [Contributors](#contributors)
+16. [Acknowledgement](#acknowledgement)
+17. [Contact Information](#contact-information)
+18. [References](#references)
 
 
 ## RISCV ISA Base Module with MAFDQC Standard Extensions 
@@ -277,7 +277,35 @@ we are doing here a^2 + b^2
 
 ![Screenshot from 2023-12-11 08-07-11](https://github.com/adityasingh6256/riscv_picorv32/assets/110079790/8dba3569-c360-441b-8bb2-e0fa7a671b43)
 
+## Future Work   
 
+1.Addition of UART protocol to picorv32    
+2.Use of axi4 lite interface for connecting the IOs and/or memory    
+3.Adding Number theoretic transform(NTT) module for homomorphic encryption to picorv32   
+
+
+## Author  
+
+-Aditya Singh   
+
+
+## Contributors  
+-Dr. Sashi Rekha Ma'am
+-Haribabu sir
+
+## Contact Information
+
+-
+## References
+1) https://github.com/YosysHQ/picorv32
+2) https://github.com/Artoriuz/RV32I-SC
+3) https://kalaharijournals.com/resources/IJME2021Dec81-100/DEC_91.pdf
+4) https://riscv.org/wp-content/uploads/2017/05/riscv-spec-v2.2.pdf
+5) https://github.com/riscv
+6) https://github.com/riscvarchive
+7) https://riscv.org/technical/specifications/
+8) https://kuleuven-diepenbeek.github.io/hwswcodesign-course/100_processor/103_picorv/
+9) https://github.com/riscv-software-src/riscv-tools
 
 
 
