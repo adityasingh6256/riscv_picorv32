@@ -1,5 +1,27 @@
 # riscv_picorv32
 riscv_ISA_toolchain_picorv32
+
+## Riscv_ISA
+| Module/Extension      | Description                                           |
+|-----------------------|-------------------------------------------------------|
+| Base Integer ISA      | RV32I: 32-bit base integer instruction set.           |
+|                       | RV64I: 64-bit base integer instruction set.           |
+|                       | RV128I: 128-bit base integer instruction set.         |
+| M (Integer Multiply/Divide) | Adds integer multiplication and division instructions. |
+| A (Atomic Instructions)| Includes atomic memory operations like LR/SC.          |
+| F (Single-Precision Floating Point) | Adds single-precision floating-point instructions. |
+| D (Double-Precision Floating Point) | Adds double-precision floating-point instructions. |
+| Q (Quad-Precision Floating Point)   | Adds quad-precision floating-point instructions.   |
+| C (Compressed)        | Introduces a compressed instruction format to reduce code size. |
+| B (Bit Manipulation)  | Includes bit manipulation instructions.               |
+| J (Jump and Link)     | Adds additional jump and link instructions.           |
+| T (Transactional Memory) | Provides support for hardware transactional memory.  |
+| P (Packed-SIMD)       | Introduces packed-SIMD instructions.                  |
+
+![20170601033253-main-cortus-riscv](https://github.com/adityasingh6256/riscv_picorv32/assets/110079790/470c500c-2caa-470a-810c-2f22b960ea63)
+![schematic](https://github.com/adityasingh6256/riscv_picorv32/assets/110079790/987f83a8-5572-434d-9416-b181e9762c02)
+
+
 ## INSTALLING RISC-V TOOLCHAIN For Linux-
 This the cross-compiler that is needed to compile your c codes and turn them into executable files(binary file...machine language).
 
