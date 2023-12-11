@@ -1,7 +1,8 @@
 # riscv_picorv32
 riscv_ISA_toolchain_picorv32
 
-## Riscv_ISA
+## Riscv_ISA base Module with MAFDQC standard extensions 
+
 | Module/Extension      | Description                                           |
 |-----------------------|-------------------------------------------------------|
 | Base Integer ISA      | RV32I: 32-bit base integer instruction set.           |
@@ -18,9 +19,20 @@ riscv_ISA_toolchain_picorv32
 | T (Transactional Memory) | Provides support for hardware transactional memory.  |
 | P (Packed-SIMD)       | Introduces packed-SIMD instructions.                  |
 
-![20170601033253-main-cortus-riscv](https://github.com/adityasingh6256/riscv_picorv32/assets/110079790/470c500c-2caa-470a-810c-2f22b960ea63)
-![schematic](https://github.com/adityasingh6256/riscv_picorv32/assets/110079790/987f83a8-5572-434d-9416-b181e9762c02)
+## RV32I ISA Encoding  
 
+![Screenshot from 2023-12-11 10-57-41](https://github.com/adityasingh6256/riscv_picorv32/assets/110079790/c921ae31-a9ac-4106-81b7-69eb67e28bbf)
+
+## rv32 ISA 32 Registers
+
+![Screenshot from 2023-12-11 10-48-46](https://github.com/adityasingh6256/riscv_picorv32/assets/110079790/4d2bfee1-00f3-41d4-aa8d-77e689473954)
+
+
+## Basic_Core_of RISCV   
+![schematic](https://github.com/adityasingh6256/riscv_picorv32/assets/110079790/8ed2063b-1a4e-4cae-bfdb-151d1c676795)
+
+## Core with other blocks
+![20170601033253-main-cortus-riscv](https://github.com/adityasingh6256/riscv_picorv32/assets/110079790/c52c726d-8a04-43b4-b696-9fbc0908fdab)
 
 ## INSTALLING RISC-V TOOLCHAIN For Linux-
 This the cross-compiler that is needed to compile your c codes and turn them into executable files(binary file...machine language).
