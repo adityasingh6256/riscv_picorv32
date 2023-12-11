@@ -150,7 +150,7 @@ Example : riscv32-unknown-elf-gcc -o hello hello.c
 it will create a hello.out file as executable binary file so we can run this on simulators (like spike).    
 
 
-## Testing_Toolchain
+## Testing Toolchain
 
 
 Run a hello command and test it on spike for printing it.
