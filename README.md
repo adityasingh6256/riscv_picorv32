@@ -180,8 +180,8 @@ what we have to change here---
 1)ENABLE_PCPI=1;    
 2)add a parameter [ 0:0] ENABLE_DOT_PRO = 1, 
 3)`define PICORV32_REGS picorv32_regs (for register file in extra module)    
-4) ```   
-
+4)
+```
 generate if(ENABLE_DOT_PRO) begin
 		picorv32_pcpi_dot_product pcpi_dp(
             		.clk       (clk            ),
