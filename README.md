@@ -154,7 +154,7 @@ waveform----
 ![Screenshot from 2023-12-09 22-08-19](https://github.com/adityasingh6256/riscv_picorv32/assets/110079790/4a905905-99ae-46cd-b08b-8078d270d746)
 
 ## Testing PCPI interface for given multiplication module
-
+some changes before simulation--- ENABLE_PCPI=1;ENABLE_MUL=1;`define PICORV32_REGS picorv32_regs (for register file in extra module)
 		dut.cpuregs.rdata1 <= 32'h00000055;	//85
 		dut.cpuregs.rdata2 <= 32'h00000006;	//6
       // output = (85*6=510)  = 36'h000001FE;
@@ -162,8 +162,52 @@ waveform----
 		dut.cpuregs.rdata1 <= 32'h0000000C;	//12
 		dut.cpuregs.rdata2 <= 32'h00000010;	//16
       // output = (12*16=192) = 36'h000000C0;
+
+
       
-![Screenshot from 2023-12-09 23-48-26](https://github.com/adityasingh6256/riscv_picorv32/assets/110079790/8f7c908e-edd5-4917-a538-849379c20fcd)
+      some delay=2000ns=2us for output to come
+
+      
+![Screenshot from 2023-12-11 07-15-37](https://github.com/adityasingh6256/riscv_picorv32/assets/110079790/50592412-34c1-47d1-ab9d-f7b38993816a)
+
+## Adding a module in PICORV32 and interface it with PCPI
+
+
+#### MODULE we will try is dot product of 2 floating point no. ,according to this we can add any module as we want like if we want to add some kind of encription we can do this.
+
+
+what we have to change here---     
+1)ENABLE_PCPI=1;    
+2)add a parameter [ 0:0] ENABLE_DOT_PRO = 1, 
+3)`define PICORV32_REGS picorv32_regs (for register file in extra module)    
+4) ```   
+
+generate if(ENABLE_DOT_PRO) begin
+		picorv32_pcpi_dot_product pcpi_dp(
+            		.clk       (clk            ),
+			.resetn    (resetn         ),
+			.pcpi_valid(1'b1     ),
+			.pcpi_insn (pcpi_insn      ),
+			.pcpi_rs1  (pcpi_rs1       ),
+			.pcpi_rs2  (pcpi_rs2       ),
+			.pcpi_wr   (pcpi_dp_wr    ),
+			.pcpi_rd   (pcpi_dp_rd    ),
+			.pcpi_wait (pcpi_dp_wait  ),
+			.pcpi_ready(pcpi_dp_ready )
+        	);
+        end else begin
+		assign pcpi_dp_wr = 0;
+		assign pcpi_dp_rd = 32'bx;
+		assign pcpi_dp_wait = 0;
+		assign pcpi_dp_ready = 0;
+	end endgenerate
+ ```   
+5) edit pcpi_int_wait,pcpi_int_ready
+6)add your module and link it to the pcpi. inputs to pcpi_rs1,pcpi_rs2 and pcpi_rd for output register.
+
+### Testing 
+
+
 
 
 
