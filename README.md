@@ -2,7 +2,7 @@
 riscv_ISA_toolchain_picorv32
 ## Table of Contents
 
-1. [RISCV ISA Base Module with MAFDQC Standard Extensions](#riscv-isa-base-module-with-mafqc-standard-extensions)
+1. [RISCV ISA Base Module with MAFDQC Standard Extensions](#riscv-isa-base-module-with-mafdqc-standard-extensions)
 2. [RV32I ISA Encoding](#rv32i-isa-encoding)
 3. [RV32 ISA 32 Registers](#rv32-isa-32-registers)
 4. [Basic Core of RISC_V](#basic-core-of-risc_v)
