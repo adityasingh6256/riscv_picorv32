@@ -13,7 +13,7 @@ riscv_ISA_toolchain_picorv32
 9. [Picorv32_core Simulation](#picorv32-core-simulation)
 10. [Testing PCPI Interface for Given Multiplication Module](#testing-pcpi-interface-for-given-multiplication-module)
 11. [Adding a Module in PICORV32 and Interface It with PCPI](#adding-a-module-in-picorv32-and-interface-it-with-pcpi)
-12. [Testing of Dot Product of Floating Point Numbers](#testing-of-dot-product-of-floating-point-numbers)
+12. [Testing of DOT Product of Floating Point Numbers](#testing-of-dot-product-of-floating-point-numbers)
 13. [Future Work](#14-future-work)
 14. [Author](#15-author)
 15. [Contributors](#16-contributors)
@@ -263,7 +263,7 @@ generate if(ENABLE_DOT_PRO) begin
 
 6)add your module and link it to the pcpi. inputs to pcpi_rs1,pcpi_rs2 and pcpi_rd for output register.   
 
-## Testing of DOT product of floating pt numbers   
+## Testing of DOT Product of Floating Point Numbers   
 
 we are doing here a^2 + b^2
 
