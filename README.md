@@ -22,7 +22,7 @@ riscv_ISA_toolchain_picorv32
 18. [References](#19-references)
 
 
-## 1. Riscv_ISA base Module with MAFDQC standard extensions 
+## Riscv_ISA base Module with MAFDQC standard extensions 
 
 | Module/Extension      | Description                                           |
 |-----------------------|-------------------------------------------------------|
@@ -137,7 +137,7 @@ sudo make
 sudo make linux
 ```
 
-#### Installation (Newlib/Linux multilib)
+## Installation (Newlib/Linux multilib)
 To build either cross-compiler with support for both 32-bit and 64-bit, run the following command:
 ```     
 ./configure --prefix=/opt/riscv --enable-multilib
@@ -150,7 +150,7 @@ Example : riscv32-unknown-elf-gcc -o hello hello.c
 it will create a hello.out file as executable binary file so we can run this on simulators (like spike).    
 
 
-### Testing_Toolchain
+## Testing_Toolchain
 
 
 Run a hello command and test it on spike for printing it.
@@ -263,7 +263,7 @@ generate if(ENABLE_DOT_PRO) begin
 
 6)add your module and link it to the pcpi. inputs to pcpi_rs1,pcpi_rs2 and pcpi_rd for output register.   
 
-### Testing of DOT product of floating pt numbers   
+## Testing of DOT product of floating pt numbers   
 
 we are doing here a^2 + b^2
 
