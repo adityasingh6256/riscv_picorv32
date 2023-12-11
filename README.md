@@ -54,7 +54,7 @@ riscv_ISA_toolchain_picorv32
 ## Core with other blocks
 ![20170601033253-main-cortus-riscv](https://github.com/adityasingh6256/riscv_picorv32/assets/110079790/c52c726d-8a04-43b4-b696-9fbc0908fdab)
 
-## INSTALLING RISC-V TOOLCHAIN For Linux-
+## Installing RISC_V Toolchain For Linux
 This the cross-compiler that is needed to compile your c codes and turn them into executable files(binary file...machine language).
 
 ![Screenshot from 2023-10-17 18-46-44](https://github.com/adityasingh6256/riscv_picorv32/assets/110079790/ea8cd137-f770-49f2-828a-b908a5a7b8b4)
