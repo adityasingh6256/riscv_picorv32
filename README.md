@@ -283,18 +283,20 @@ we are doing here a^2 + b^2
 2.Use of axi4 lite interface for connecting the IOs and/or memory    
 3.Adding Number theoretic transform(NTT) module for homomorphic encryption to picorv32   
 
-
 ## Author  
 
 -Aditya Singh   
 
-
 ## Contributors  
--Dr. Sashi Rekha Ma'am
--Haribabu sir
+-Dr. Sasirekha GVK
+-Haribabu P  
+
+## Acknowledgement
+-prof. Madhav rao
+-prof. Jyotsna Bapat
 
 ## Contact Information
-
+Aditya Singh (aditya.singh@iiitb.ac.in)
 -
 ## References
 1) https://github.com/YosysHQ/picorv32
