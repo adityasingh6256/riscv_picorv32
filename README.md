@@ -288,12 +288,12 @@ we are doing here a^2 + b^2
 -Aditya Singh   
 
 ## Contributors  
--Dr. Sasirekha GVK
--Haribabu P  
+-Dr. Sasirekha GVK    
+-Haribabu P     
 
 ## Acknowledgement
--prof. Madhav rao
--prof. Jyotsna Bapat
+-prof. Madhav rao    
+-prof. Jyotsna Bapat    
 
 ## Contact Information
 Aditya Singh (aditya.singh@iiitb.ac.in)
