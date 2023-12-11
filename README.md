@@ -3,6 +3,9 @@ riscv_ISA_toolchain_picorv32
 ## INSTALLING RISC-V TOOLCHAIN For Linux-
 This the cross-compiler that is needed to compile your c codes and turn them into executable files(binary file...machine language).
 
+![Screenshot from 2023-10-17 18-46-44](https://github.com/adityasingh6256/riscv_picorv32/assets/110079790/ea8cd137-f770-49f2-828a-b908a5a7b8b4)
+
+
 1. The following prerequisites need to be installed before installing the toolchain
 ```    
 sudo apt-get install autoconf automake autotools-dev curl python3 libmpc-dev libmpfr-dev libgmp-dev gawk build-essential bison flex texinfo gperf libtool patchutils bc zlib1g-dev libexpat-dev      
