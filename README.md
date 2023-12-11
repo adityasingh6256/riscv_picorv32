@@ -48,7 +48,7 @@ riscv_ISA_toolchain_picorv32
 
 ![Screenshot from 2023-12-11 10-48-46](https://github.com/adityasingh6256/riscv_picorv32/assets/110079790/4d2bfee1-00f3-41d4-aa8d-77e689473954)
 
-## Basic Core_of RISCV   
+## Basic Core of RISCV   
 ![schematic](https://github.com/adityasingh6256/riscv_picorv32/assets/110079790/8ed2063b-1a4e-4cae-bfdb-151d1c676795)
 
 ## Core with other blocks
