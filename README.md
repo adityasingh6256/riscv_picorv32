@@ -201,8 +201,9 @@ generate if(ENABLE_DOT_PRO) begin
 		assign pcpi_dp_wait = 0;
 		assign pcpi_dp_ready = 0;
 	end endgenerate
- ```   
-5) edit pcpi_int_wait,pcpi_int_ready
+ ```
+
+5)edit pcpi_int_wait,pcpi_int_ready
 
 6)add your module and link it to the pcpi. inputs to pcpi_rs1,pcpi_rs2 and pcpi_rd for output register.   
 
@@ -212,7 +213,11 @@ we are doing here a^2 + b^2
 
 // output = (45.25 * 45.25) + (3.125 * 3.125) = 2057.328125 = 36'h045009540    
 // output = (-31.5 * -31.5) + (-7.875 * -7.875) = 1054.265625 = 36'h041F22000    
-//output = (-3.125 * -3.125) + (7.25 * 7.25) = 62.328125 = 36'h042795000
+//output = (-3.125 * -3.125) + (7.25 * 7.25) = 62.328125 = 36'h042795000    
+
+
+![Screenshot from 2023-12-11 07-51-15](https://github.com/adityasingh6256/riscv_picorv32/assets/110079790/da6265df-bf95-4423-a62f-a476bb9aeeb4)   
+
 
 
 
