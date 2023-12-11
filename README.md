@@ -1,7 +1,28 @@
 # riscv_picorv32
 riscv_ISA_toolchain_picorv32
+## Table of Contents
 
-## Riscv_ISA base Module with MAFDQC standard extensions 
+1. [RISC-V ISA Base Module with MAFDQC Standard Extensions](#riscv_isa-base-module-with-mafqc-standard-extensions)
+2. [RV32I ISA Encoding](#rv32i-isa-encoding)
+3. [RV32 ISA 32 Registers](#rv32-isa-32-registers)
+4. [Basic Core of RISC-V](#basic-core-of-riscv)
+5. [Core with Other Blocks](#core-with-other-blocks)
+6. [Installing RISC-V Toolchain for Linux](#installing-risc-v-toolchain-for-linux)
+7. [Installation (Newlib/Linux Multilib)](#installation-newlib-linux-multilib)
+8. [Testing Toolchain](#testing-toolchain)
+9. [Picorv32_core Simulation](#picorv32-core-simulation)
+10. [Testing PCPI Interface for Given Multiplication Module](#testing-pcpi-interface-for-given-multiplication-module)
+11. [Adding a Module in PICORV32 and Interface It with PCPI](#adding-a-module-in-picorv32-and-interface-it-with-pcpi)
+12. [Testing of Dot Product of Floating Point Numbers](#testing-of-dot-product-of-floating-point-numbers)
+13. [Future Work](#14-future-work)
+14. [Author](#15-author)
+15. [Contributors](#16-contributors)
+16. [Acknowledgement](#17-acknowledgement)
+17. [Contact Information](#18-contact-information)
+18. [References](#19-references)
+
+
+## 1. Riscv_ISA base Module with MAFDQC standard extensions 
 
 | Module/Extension      | Description                                           |
 |-----------------------|-------------------------------------------------------|
