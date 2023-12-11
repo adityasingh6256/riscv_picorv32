@@ -27,7 +27,6 @@ riscv_ISA_toolchain_picorv32
 
 ![Screenshot from 2023-12-11 10-48-46](https://github.com/adityasingh6256/riscv_picorv32/assets/110079790/4d2bfee1-00f3-41d4-aa8d-77e689473954)
 
-
 ## Basic_Core_of RISCV   
 ![schematic](https://github.com/adityasingh6256/riscv_picorv32/assets/110079790/8ed2063b-1a4e-4cae-bfdb-151d1c676795)
 
@@ -38,7 +37,6 @@ riscv_ISA_toolchain_picorv32
 This the cross-compiler that is needed to compile your c codes and turn them into executable files(binary file...machine language).
 
 ![Screenshot from 2023-10-17 18-46-44](https://github.com/adityasingh6256/riscv_picorv32/assets/110079790/ea8cd137-f770-49f2-828a-b908a5a7b8b4)
-
 
 1. The following prerequisites need to be installed before installing the toolchain
 ```    
