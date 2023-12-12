@@ -1,9 +1,9 @@
 # riscv_picorv32   
 riscv_ISA_toolchain_picorv32----    
 
--Simplicity of RISC-V ISA enables CPU implementation with approximately 8K to 15K gate count, around 47% lower than ARM processors.     
--As name defines single CISC instruction can perform many complex tasks while single RISC instruction can perform only single simple tasks     
--CISC programs can be smaller at the cost of silicon complexity and high power consumption on the other hand RISC programs can be longer providing ability to run these programs on simpler silicon that requires much less power.    
+Simplicity of RISC-V ISA enables CPU implementation with approximately 8K to 15K gate count, around 47% lower than ARM processors.     
+As name defines single CISC instruction can perform many complex tasks while single RISC instruction can perform only single simple tasks     
+CISC programs can be smaller at the cost of silicon complexity and high power consumption on the other hand RISC programs can be longer providing ability to run these programs on simpler silicon that requires much less power.    
 
 ## Table of Contents
 
