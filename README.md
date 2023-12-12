@@ -50,7 +50,8 @@ how to do encoding of instructions in 32 bit for different different tasks
 
 ![Screenshot from 2023-12-11 10-57-41](https://github.com/adityasingh6256/riscv_picorv32/assets/110079790/c921ae31-a9ac-4106-81b7-69eb67e28bbf)
 
-## rv32 ISA 32 Registers
+## rv32 ISA 32 Registers   
+there are 32 registers in RV32 module so we can use them as there profile so here are they
 
 ![Screenshot from 2023-12-11 10-48-46](https://github.com/adityasingh6256/riscv_picorv32/assets/110079790/4d2bfee1-00f3-41d4-aa8d-77e689473954)
 
