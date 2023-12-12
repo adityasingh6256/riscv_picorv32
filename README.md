@@ -46,6 +46,7 @@ CISC programs can be smaller at the cost of silicon complexity and high power co
 | P (Packed-SIMD)       | Introduces packed-SIMD instructions.                  |
 
 ## RV32I ISA Encoding    
+how to do encoding of instructions in 32 bit for different different tasks   
 
 ![Screenshot from 2023-12-11 10-57-41](https://github.com/adityasingh6256/riscv_picorv32/assets/110079790/c921ae31-a9ac-4106-81b7-69eb67e28bbf)
 
