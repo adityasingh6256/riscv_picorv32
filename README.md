@@ -27,7 +27,7 @@ CISC programs can be smaller at the cost of silicon complexity and high power co
 18. [References](#references)
 
 
-## RISCV ISA Base Module with MAFDQC Standard Extensions 
+## RISCV ISA Base Module with MAFDQC Standard Extensions    
 
 | Module/Extension      | Description                                           |
 |-----------------------|-------------------------------------------------------|
@@ -45,7 +45,7 @@ CISC programs can be smaller at the cost of silicon complexity and high power co
 | T (Transactional Memory) | Provides support for hardware transactional memory.  |
 | P (Packed-SIMD)       | Introduces packed-SIMD instructions.                  |
 
-## RV32I ISA Encoding  
+## RV32I ISA Encoding    
 
 ![Screenshot from 2023-12-11 10-57-41](https://github.com/adityasingh6256/riscv_picorv32/assets/110079790/c921ae31-a9ac-4106-81b7-69eb67e28bbf)
 
