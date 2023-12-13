@@ -230,7 +230,8 @@ some changes before simulation--- ENABLE_PCPI=1;ENABLE_MUL=1;`define PICORV32_RE
 
       
       some delay=2000ns=2us for output to come
-
+      
+https://edaplayground.com/x/CCCG can check by running the simulation on eda playground.
       
 ![Screenshot from 2023-12-11 07-15-37](https://github.com/adityasingh6256/riscv_picorv32/assets/110079790/50592412-34c1-47d1-ab9d-f7b38993816a)
 
@@ -279,11 +280,15 @@ we are doing here a^2 + b^2
 // output = (-31.5 * -31.5) + (-7.875 * -7.875) = 1054.265625 = 36'h041F22000    
 //output = (-3.125 * -3.125) + (7.25 * 7.25) = 62.328125 = 36'h042795000    
 
+https://edaplayground.com/x/Ciye check by eda playground...
 
 ![Screenshot from 2023-12-11 07-51-15](https://github.com/adityasingh6256/riscv_picorv32/assets/110079790/da6265df-bf95-4423-a62f-a476bb9aeeb4)   
 
 
 ![Screenshot from 2023-12-11 08-07-11](https://github.com/adityasingh6256/riscv_picorv32/assets/110079790/8dba3569-c360-441b-8bb2-e0fa7a671b43)
+![Screenshot from 2023-12-13 11-14-35](https://github.com/adityasingh6256/riscv_picorv32/assets/110079790/7dc3d655-5246-47bd-861c-3bad56e4f9d7)
+
+
 
 ## Future Work   
 
