@@ -287,14 +287,11 @@ we are doing here a^2 + b^2
 //output = (-3.125 * -3.125) + (7.25 * 7.25) = 62.328125 = 36'h042795000    
 
 https://edaplayground.com/x/Ciye check by eda playground...
-
-![Screenshot from 2023-12-11 07-51-15](https://github.com/adityasingh6256/riscv_picorv32/assets/110079790/da6265df-bf95-4423-a62f-a476bb9aeeb4)   
-
+![Screenshot from 2023-12-13 11-39-54](https://github.com/adityasingh6256/riscv_picorv32/assets/110079790/22eb146e-d952-4d70-8d1f-5576afe60b56)
 
 <p align="center">   
  <img width=""1300 height="500" src="https://github.com/adityasingh6256/riscv_picorv32/blob/c8b367dad9d67f4f4dc31f681e3a54dad948315f/images/Screenshot%20from%202023-12-13%2011-14-35.png">
  </p><br>  
-
 
 
 
