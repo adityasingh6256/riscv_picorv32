@@ -234,8 +234,12 @@ some changes before simulation--- ENABLE_PCPI=1;ENABLE_MUL=1;`define PICORV32_RE
       some delay=2000ns=2us for output to come
       
 https://edaplayground.com/x/CCCG can check by running the simulation on eda playground.
-      
-![Screenshot from 2023-12-11 07-15-37](https://github.com/adityasingh6256/riscv_picorv32/assets/110079790/50592412-34c1-47d1-ab9d-f7b38993816a)
+
+
+https://edaplayground.com/x/TFvd   can be check by running simulation.
+<p align="center">   
+ <img width=""1000 height="300" src="https://github.com/adityasingh6256/riscv_picorv32/blob/2594782a6be53a860a3bab4a3bce2efa9551727e/images/Screenshot%20from%202023-12-11%2007-15-37.png">
+ </p><br>  
 
 ## Adding a module in PICORV32 and interface it with PCPI
 
