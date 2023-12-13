@@ -288,7 +288,7 @@ https://edaplayground.com/x/Ciye check by eda playground...
 ![Screenshot from 2023-12-11 08-07-11](https://github.com/adityasingh6256/riscv_picorv32/assets/110079790/8dba3569-c360-441b-8bb2-e0fa7a671b43)
 
 <p align="center">   
- <img width=""1300 height="600" src="![Screenshot from 2023-12-13 11-14-35](https://github.com/adityasingh6256/riscv_picorv32/assets/110079790/7dc3d655-5246-47bd-861c-3bad56e4f9d7)">
+ <img width=""1300 height="600" src="https://github.com/adityasingh6256/riscv_picorv32/blob/c8b367dad9d67f4f4dc31f681e3a54dad948315f/images/Screenshot%20from%202023-12-13%2011-14-35.png">
  </p><br>  
 
 ![Screenshot from 2023-12-13 11-14-35](https://github.com/adityasingh6256/riscv_picorv32/assets/110079790/7dc3d655-5246-47bd-861c-3bad56e4f9d7)
