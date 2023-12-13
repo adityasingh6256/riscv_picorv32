@@ -214,8 +214,10 @@ Converted the the counter code in c to assembly and then machine code of instruc
 
 waveform----
 https://edaplayground.com/x/TFvd   can be check by running simulation.
+<p align="center">   
+ <img width=""1300 height="500" src="https://github.com/adityasingh6256/riscv_picorv32/blob/2594782a6be53a860a3bab4a3bce2efa9551727e/images/Screenshot%20from%202023-12-09%2022-08-19.png">
+ </p><br>  
 
-![Screenshot from 2023-12-09 22-08-19](https://github.com/adityasingh6256/riscv_picorv32/assets/110079790/4a905905-99ae-46cd-b08b-8078d270d746)
 
 ## Testing PCPI interface for given multiplication module
 some changes before simulation--- ENABLE_PCPI=1;ENABLE_MUL=1;`define PICORV32_REGS picorv32_regs (for register file in extra module)
