@@ -213,6 +213,7 @@ Converted the the counter code in c to assembly and then machine code of instruc
 ![Screenshot from 2023-12-09 22-23-52](https://github.com/adityasingh6256/riscv_picorv32/assets/110079790/ea2202b7-81db-4dae-9c9d-f1754b1c7c23)
 
 waveform----
+https://edaplayground.com/x/TFvd   can be check by running simulation.
 
 ![Screenshot from 2023-12-09 22-08-19](https://github.com/adityasingh6256/riscv_picorv32/assets/110079790/4a905905-99ae-46cd-b08b-8078d270d746)
 
